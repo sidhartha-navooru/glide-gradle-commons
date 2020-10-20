@@ -14,7 +14,10 @@ ext {
             transactionApi: 'com.glidetech.transaction:transaction-api:0.1.0',
             transactionService: 'com.glidetech.transaction:transaction-service:0.1.0',
             glideCommand: 'com.glidetech.core:glide-command:0.1.2',
-			glidePostgresql:'com.glidetech.core:glide-postgresql:0.1.0'			
+            glidePostgresql: 'com.glidetech.core:glide-postgresql:0.1.0',
+            lang: 'org.apache.fineract.cn:lang:0.1.0',
+            anubisApi: 'org.apache.fineract.cn.anubis:anubis-api:0.1.0',
+            anubisLibrary: 'org.apache.fineract.cn.anubis:anubis-library:0.1.0'
         ],
         spring: [
             securityCore: 'org.springframework.security:spring-security-core:5.4.0',
@@ -28,7 +31,7 @@ ext {
             configClient: 'org.springframework.cloud:spring-cloud-starter-config',
             openFeign: 'org.springframework.cloud:spring-cloud-starter-openfeign',
             mavenBom: 'org.springframework.cloud:spring-cloud-dependencies:Hoxton.SR7',
-            eurekaClient: 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client',
+            eurekaClient: 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
         ],
         springBoot: [
             web: 'org.springframework.boot:spring-boot-starter-web',
