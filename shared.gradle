@@ -18,7 +18,9 @@ ext {
                     glidePostgresql            : 'com.glidetech.core:glide-postgresql:0.1.0',
                     lang                       : 'org.apache.fineract.cn:lang:0.1.0',
                     anubisApi                  : 'org.apache.fineract.cn.anubis:anubis-api:0.1.0',
-                    anubisLibrary              : 'org.apache.fineract.cn.anubis:anubis-library:0.1.0'
+                    anubisLibrary              : 'org.apache.fineract.cn.anubis:anubis-library:0.1.0',
+                    identityApi                : 'com.glidetech.identity:identity-api:0.1.0',
+                    identityService            : 'com.glidetech.identity:identity-service:0.1.0'
             ],
             spring       : [
                     securityCore  : 'org.springframework.security:spring-security-core:5.4.0',
