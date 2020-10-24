@@ -78,7 +78,8 @@ ext {
             guava: 'com.google.guava:guava:29.0-jre',
             threeten: 'org.threeten:threeten-extra:1.5.0',
             axonAmqp: 'org.axonframework.extensions.amqp:axon-amqp-spring-boot-starter:4.4',
-            kafka: 'org.springframework.kafka:spring-kafka'
+            kafka: 'org.springframework.kafka:spring-kafka',
+			axonTest:'org.axonframework:axon-test:4.4'
         ]
     ]
 }
