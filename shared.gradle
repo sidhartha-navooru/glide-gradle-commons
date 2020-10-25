@@ -19,6 +19,7 @@ ext {
             glidePostgresql: 'com.glidetech.core:glide-postgresql:0.1.1',
 			glideApi: 'com.glidetech.core:glide-api:0.1.0',
 			glideTest: 'com.glidetech.core:glide-test:0.1.0',
+            glideZeebe: 'com.glidetech.core:glide-zeebe:0.1.0',
             lang: 'org.apache.fineract.cn:lang:0.1.0',
             anubisApi: 'org.apache.fineract.cn.anubis:anubis-api:0.1.0',
             anubisLibrary: 'org.apache.fineract.cn.anubis:anubis-library:0.1.0',
@@ -79,7 +80,8 @@ ext {
             threeten: 'org.threeten:threeten-extra:1.5.0',
             axonAmqp: 'org.axonframework.extensions.amqp:axon-amqp-spring-boot-starter:4.4',
             kafka: 'org.springframework.kafka:spring-kafka',
-			axonTest:'org.axonframework:axon-test:4.4'
+			axonTest:'org.axonframework:axon-test:4.4',
+            zeebe:'io.zeebe.spring:spring-zeebe-starter:0.24.0'
         ]
     ]
 }
