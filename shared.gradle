@@ -27,7 +27,8 @@ ext {
             identityApi: 'com.glidetech.identity:identity-api:0.1.0',
             identityService: 'com.glidetech.identity:identity-service:0.1.0',
             api: 'org.apache.fineract.cn:api:0.1.0',
-            test: 'org.apache.fineract.cn:test:0.1.0'
+            test: 'org.apache.fineract.cn:test:0.1.0',
+			glideKafka:'com.glidetech.core:glide-kafka:0.1.0'
         ],
         spring: [
             securityCore: 'org.springframework.security:spring-security-core:5.4.0',
