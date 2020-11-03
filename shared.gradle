@@ -1,7 +1,7 @@
 ext {
     deps = [
         glide: [
-            dog: 'com.glidetech.core:glide-dog:0.1.1',
+            dog: 'com.glidetech.core:glide-dog:0.1.0',
             clientApi: 'com.glidetech.client:client-api:0.1.0',
             clientService: 'com.glidetech.client:client-service:0.1.0',
             glideTemplateService: 'com.glidetech.template:glide-template-service:0.1.0',
