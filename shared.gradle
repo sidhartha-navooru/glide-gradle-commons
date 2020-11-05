@@ -84,7 +84,7 @@ ext {
             axonAmqp: 'org.axonframework.extensions.amqp:axon-amqp-spring-boot-starter:4.4',
             kafka: 'org.springframework.kafka:spring-kafka',
 			axonTest:'org.axonframework:axon-test:4.4',
-            zeebe:'io.zeebe.spring:spring-zeebe-starter:0.24.4',
+            zeebe:'io.zeebe.spring:spring-zeebe-starter:0.24.0',
             elasticsearch:'org.springframework.boot:spring-boot-starter-data-elasticsearch'
         ]
     ]
