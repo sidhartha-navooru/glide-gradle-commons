@@ -8,7 +8,7 @@ ext {
             glideTemplateApi: 'com.glidetech.template:glide-template-api:0.1.2',
             ISO8583Api: 'com.glidetech.ISO8583:ISO8583-api:0.1.0',
             ISO8583Service: 'com.glidetech.ISO8583:ISO8583-service:0.1.0',
-            prospectApi: 'com.glidetech.prospect:api:0.1.0',
+            prospectApi: 'com.glidetech.prospect:prospect-api:0.1.0',
             prospectService: 'com.glidetech.prospect:service:0.1.0',
             clientAccountMappingApi: 'com.glide.client-account-mapping:api:0.1.0',
             clientAccountMappingService: 'com.glide.client-account-mapping:service:0.1.0',
